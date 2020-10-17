@@ -8,7 +8,7 @@ const displayFact = e => {
   let fact = facts[rand];
   document.getElementById("fact").innerHTML = fact;
 }
-
+alert('React App')
 const images = [];
 for(const animal in animals ){
 
